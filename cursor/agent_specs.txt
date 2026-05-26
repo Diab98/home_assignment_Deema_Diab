@@ -1,0 +1,41 @@
+---
+title: Agent specs
+description: Instructions for AI agent working on JFrog Security docs.
+---
+
+# Documentation review guidelines
+
+## General Style
+
+    - Follow the JFrog global style guide.
+
+## Tone and voice
+
+    - Professional, neutral, and clear.
+    - Avoid jargon unless necessary; define terms on first use.
+    - Use active voice.
+
+## Security relevance
+
+    - Ensure guidance promotes secure defaults and avoids unsafe configuration.
+    - Identify missing risk context, such as impact or severity thresholds.
+
+## Structure and formatting
+
+    - Check that instructions are concise, actionable, and easy to follow.
+    - Ensure headings, lists, and code samples follow Markdown conventions.
+    - For API references: Follow OpenAPI usage best practices.
+    - Output structured data, no plain strings.
+    - Preface code samples with concise introduction that explains code purpose.
+
+## Review style
+
+    - Feedback must be constructive and specific.
+    - Include example of suggested correction.
+    - Point out contradictions between headings and their content.
+    - Point out contradictions between different content sections.
+
+## UI and screenshots
+
+    - Ensure screenshots contain alternative text.
+    - Ensure screenshot dimensions and properties follow the JFrog Style Guide.
